@@ -2,7 +2,6 @@
 import { RouterView } from "vue-router";
 import NavBar from "./components/NavBar.vue";
 </script>
-
 <template>
   <nav>
     <NavBar class="text-rose-50" :links="['Inicio', 'Sobre Mi']" />
@@ -25,7 +24,6 @@ nav {
   width: 100%;
   font-size: 12px;
   text-align: center;
-  margin-top: 2rem;
 }
 
 nav a.router {

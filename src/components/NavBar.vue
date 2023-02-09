@@ -51,10 +51,10 @@ header {
 }
 */
 .router-link-active {
-  color: gray !important;
-  background-color: rgb(22, 19, 19);
+  color: rgb(245, 29, 29) !important;
 }
-.router-link-exact-active {
-  color: red;
+.router-link-active:hover {
+  scale: 120%;
 }
+.router-link-exact-active {}
 </style>
